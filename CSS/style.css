@@ -1,0 +1,160 @@
+
+body{
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 0;
+  background-color: #ecfbfc;
+
+
+}
+h1
+{
+  margin: 50px auto 0 auto;
+  font-size: 4.625rem;
+  font-family:'Sacramento',cursive;
+  color: #66BFBF;
+}
+hr{
+
+
+
+    border-style: none;
+    border-top-style:dotted;
+    border-color: green;
+    border-width: 5px;
+    width:5%;
+
+}
+h2{
+  font-weight: normal;
+  color: #66BFBF;
+  font-family:'Montserrat',sans-serif;
+  padding-bottom: 10px;
+
+
+}
+h3{
+  color: #11999E;
+  font-family:'Montserrat',sans-serif;
+
+}
+
+p{margin-left: auto;
+  font-family:BalooChettan2-SemiBold;
+  font-size: 20px;
+}
+
+.top{
+  background-color: #d4f3ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  position: relative;
+top:50px;
+}
+.bottom-container{
+  position: relative;
+  top:100px;
+  background-color: #66BFBF;
+  padding: 10px 0 40px;
+}
+
+
+img{
+  position: relative; /***************position is used for changing the position of images*/
+}
+.bottom-cloud{
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+}
+.top-cloud
+{
+position: relative;
+left:250px;
+top:-10px;
+}
+.mountain{
+  position: relative;
+
+}
+.contact-me{
+margin:auto;
+
+}
+
+.skill-row{
+  position: relative;
+margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.skill-java{
+float: left;
+margin-right: 30px;
+}
+.skill-Web{
+  float:right;
+  margin-left: 30px;
+}
+.skill-Android{
+  float: left;
+  margin-right: 30px;
+}
+.skill-CPP{
+  float: right;
+  margin-left: 30px;
+
+}
+p{
+  line-height: 2;
+}
+.intro{
+  width: 20%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.insta{
+  padding: 20px;
+
+}
+.contact-images:hover .linkedin {
+  opacity: 1;
+}
+.linkedin{
+  padding-right: 20px;
+}
+.contact-images{
+  position: relative;
+  top: 20px;
+}
+.dp{
+  border-radius: 50%;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
